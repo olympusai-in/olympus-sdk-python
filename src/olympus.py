@@ -18,7 +18,7 @@ class Olympus:
         self,
         api_key: str,
         service: str,
-        endpoint: str = "http://localhost:4000",
+        endpoint: str = "https://api.olympusai.in",
         flush_interval: float = 10.0,
         batch_size: int = 100,
     ):

@@ -7,7 +7,7 @@ api_key = os.getenv("OLYMPUS_API_KEY", "ol_YOUR_KEY_HERE")
 with Olympus(
     api_key=api_key,
     service="my-python-app",
-    endpoint="http://localhost:4000",
+    endpoint="https://api.olympusai.in",
     flush_interval=5.0,
 ) as client:
     client.info("Application started")
